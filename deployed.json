@@ -1,0 +1,11 @@
+{
+  "network": "hashkeyTestnet",
+  "chainId": 133,
+  "AetherToken": "",
+  "AetherAuction": "",
+  "ZKKYCRegistry": "",
+  "NullifierVerifier": "",
+  "deployedAt": "",
+  "deployerAddress": "",
+  "notes": "ZK-enabled deployment with nullifier-based sealed bids, ZK-KYC gating, and on-chain proof verification on HashKey Chain Testnet (ZKID Track)"
+}

@@ -1,0 +1,7 @@
+{
+  "0x95193fa5fecd658293c3A1aac67b0E479b7C253a": "AetherToken",
+  "0x21b310EFC2599abaFFBa0af1c32C96AF68799621": "ZKKYCRegistry",
+  "0x4E771685C28aB47F4763809D63c7699709B06eB5": "MockHonkVerifier",
+  "0x3ebb3d5EeF6daeD210A0183a616A9D868Bb0983d": "AetherAuction",
+  "networkName": "hashkeyTestnet"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@se-2/foundry",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "account": "node scripts-js/checkAccountBalance.js",
+    "account:generate": "node scripts-js/generateKeystore.js",
+    "account:import": "node scripts-js/importAccount.js",
+    "account:reveal-pk": "node scripts-js/revealPK.js",
+    "chain": "node scripts-js/chain.js",
+    "clean": "forge clean",
+    "compile": "forge compile",
+    "deploy": "node scripts-js/parseArgs.js",
+    "flatten": "forge flatten",
+    "fork": "node scripts-js/fork.js",
+    "format": "forge fmt && prettier --write ./scripts-js/**/*.js",
+    "postinstall": "shx cp -n .env.example .env",
+    "lint": "forge fmt --check && prettier --check ./scripts-js/**/*.js",
+    "test": "forge test",
+    "verify": "node scripts-js/verify.js"
+  },
+  "dependencies": {
+    "dotenv": "~16.3.1",
+    "envfile": "~6.18.0",
+    "ethers": "~5.7.1",
+    "prettier": "~2.8.8",
+    "qrcode": "~1.5.3",
+    "toml": "~3.0.0"
+  },
+  "devDependencies": {
+    "shx": "^0.3.4"
+  }
+}
